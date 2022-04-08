@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Coder / décoder un message en Morse</string>
+   <string>Morse encoding</string>
   </property>
   <property name="windowIcon">
    <iconset resource="Image.qrc">
