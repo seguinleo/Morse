@@ -42,13 +42,13 @@
       <x>152</x>
       <y>169</y>
       <width>341</width>
-      <height>25</height>
+      <height>28</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Comic Sans MS</family>
-      <pointsize>10</pointsize>
+      <pointsize>11</pointsize>
       <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
@@ -59,7 +59,7 @@
 background-color: rgb(255, 255, 255);
 border: 2px solid  rgb(75, 120, 200);
 border-radius: 10px;
-font: 10pt &quot;Comic Sans MS&quot;;
+font: 11pt &quot;Comic Sans MS&quot;;
 }
 
 QLineEdit::hover {
@@ -90,6 +90,7 @@ font: 14pt &quot;Comic Sans MS&quot;;
 QPushButton::hover {
 background-color: rgb(60, 160, 230);
 border-style: inset;
+color: rgb(30, 110, 160);
 }
 
 QPushButton::pressed {
@@ -200,7 +201,7 @@ border-style: inset;
    </widget>
    <widget class="QLineEdit" name="lEResultat">
     <property name="enabled">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -210,11 +211,23 @@ border-style: inset;
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);
 border: 2px solid  rgb(75, 120, 200);
 border-radius: 10px;
 font: 12pt &quot;Comic Sans MS&quot;;</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="lImage">
